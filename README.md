@@ -23,15 +23,11 @@ the YOLO_DNN.ipynb - google colab note contains - <br>
 ![traininf loss curves](./images/result.jpg "result of predict.jpg")
 <img src="./images/result.jpg" alt="result" title="result of predict.jpg">
 - Inference cell to get accuracy plots. accuracy metrics
-<p float="left">
-  <img src="./images/P_curve.png" alt="p" title="Precision curve">
-  <img src="./images/R_curve.png" alt="r" title="Recall curve">
-  <img src="./images/F1_curve.png" alt="f1" title="F1 curve">
-</p>
- ![](./images/P_curve.png) | ![](./images/R_curve.png) | ![](.images/F1_curve.png)
-:-------------------------:|:-------------------------:|:-------------------------:
-      Precision curve      |         Recall curve      |         F1 curve
-      
 
- <img src="../images/mAP.png" alt="map" title="mAP Scores">
+ ![](./images/P_curve.png) | ![](./images/R_curve.png) 
+:-------------------------:|:-------------------------:
+      Precision curve      |         Recall curve      
+      
+<img src="./images/F1_curve.png" alt="f1" title="F1 curve">
+ <img src="./images/mAP.png" alt="map" title="mAP Scores">
  <img src="./images/confusion_matrix.png" alt="cm" title="Confusion Matrix">
