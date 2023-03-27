@@ -16,8 +16,11 @@ the YOLO_DNN.ipynb - google colab note contains - <br>
 - generation of data (train, test, validation)
 - training them using a custom data file - custom.yaml, trainng was done for 715 epochs - 600 trainng images, 40 validation images.
  <img src="./images/results.png" alt="training loss curves" title="training loss curves">
+- 
 - function for prediction, generates a result image with bounding boxes over shapes, lists the predicted number of shapes.<br>
+
  <img src="./images/result.jpg" alt="result" title="result of predict.jpg">
+- 
 - Inference cell to get accuracy plots. accuracy metrics<br>
  <img src="./images/mAP.png" alt="map" title="mAP Scores">
  
