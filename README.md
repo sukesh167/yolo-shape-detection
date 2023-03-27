@@ -20,6 +20,7 @@ the YOLO_DNN.ipynb - google colab note contains - <br>
  <img src="./images/result.jpg" alt="result" title="result of predict.jpg">
 - Inference cell to get accuracy plots. accuracy metrics<br>
  <img src="./images/mAP.png" alt="map" title="mAP Scores">
+ 
  ![](./images/P_curve.png) | ![](./images/R_curve.png) 
 :-------------------------:|:-------------------------:
       
