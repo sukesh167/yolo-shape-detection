@@ -12,7 +12,8 @@ File - gen_images.py can generate images and labels for them.<br>
 ## Part II - DNN
 
 YOLOv5 small has been used, cloned from https://github.com/ultralytics/yolov5 <br>
-the YOLO_DNN.ipynb - google colab note contains 
+The YOLO_DNN.ipynb - google colab note contains <br>
+Trained weights can be found [here](https://drive.google.com/file/d/109cX2XfUPwpk4q6_jprPXpRbJjHMNesC/view?usp=share_link)
 #### generation of data (train, test, validation)
 #### training them using a custom data file - custom.yaml, trainng was done for 715 epochs - 600 trainng images, 40 validation images.
   ![](./images/results.png)
