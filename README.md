@@ -7,18 +7,18 @@ File - gen_images.py can generate images and labels for them.<br>
 - A shape is selected randomly from the given list and rotates and resizes it and fixes it in the generated sqaure.
 - It uses the points of sqaure and selected shape to generated label in YOLO format - [class, x, y, w, h]
 
-### usage - python3 gen_images.py --input input_images/ --out-dims 1024 --nout 1000 --labels(if labels are required)
+#### usage - python3 gen_images.py --input input_images/ --out-dims 1024 --nout 1000 --labels(if labels are required)
 
 ## Part II - DNN
 
 YOLOv5 small has been used, cloned from https://github.com/ultralytics/yolov5 <br>
 the YOLO_DNN.ipynb - google colab note contains 
-### generation of data (train, test, validation)
-### training them using a custom data file - custom.yaml, trainng was done for 715 epochs - 600 trainng images, 40 validation images.
+#### generation of data (train, test, validation)
+#### training them using a custom data file - custom.yaml, trainng was done for 715 epochs - 600 trainng images, 40 validation images.
   ![](./images/results.png)
-### function for prediction, generates a result image with bounding boxes over shapes, lists the predicted number of shapes
+#### function for prediction, generates a result image with bounding boxes over shapes, lists the predicted number of shapes
  ![](./images/result.jpg)
-### Inference cell to get accuracy plots.
+#### Inference cell to get accuracy plots.
  ![](./imagesmAP.png)
  
  ![](./images/P_curve.png) | ![](./images/R_curve.png) 
