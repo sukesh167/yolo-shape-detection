@@ -1,0 +1,12 @@
+
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+nc: 4
+names: [gear, hexagon, disc, square]
+
+
+
+
