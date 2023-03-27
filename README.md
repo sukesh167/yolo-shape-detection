@@ -25,8 +25,6 @@ the YOLO_DNN.ipynb - google colab note contains - <br>
 
  ![](./images/P_curve.png) | ![](./images/R_curve.png) 
 :-------------------------:|:-------------------------:
-      Precision curve      |         Recall curve   
-:-------------------------:|:-------------------------:
       
 <img src="./images/F1_curve.png" alt="f1" title="F1 curve">
 <img src="./images/mAP.png" alt="map" title="mAP Scores">
